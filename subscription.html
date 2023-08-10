@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subs.css">
+    <title>My WebApp</title>
+</head>
+<body>
+    <div class="pricing-container">
+        <h1>Choose the right plan for you</h1>
+
+        <div class="tab-buttons">
+            <button class="tab-button active" id="monthly-tab">Monthly</button>
+            <button class="tab-button" id="yearly-tab">Yearly</button>
+        </div>
+
+        <div class="pricing-table active" id="monthly-pricing-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plan Name</th>
+                        <th>Monthly Price</th>
+                        <th>Video Quality</th>
+                        <th>Resolution</th>
+                        <th>Devices</th>
+                        <th>Number of Screens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="plan" id="mobile-plan">
+                        <td>Mobile Plan</td>
+                        <td>100 INR</td>
+                        <td>Good</td>
+                        <td>480p</td>
+                        <td>Phone</td>
+                        <td>1</td>
+                    </tr>
+                    <tr class="plan" id="basic-plan">
+                        <td>Basic Plan</td>
+                        <td>200 INR</td>
+                        <td>Better</td>
+                        <td>720p</td>
+                        <td>Phone+Tablet</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="plan" id="standard-plan">
+                        <td>Standard Plan</td>
+                        <td>500 INR</td>
+                        <td>Best</td>
+                        <td>1080p</td>
+                        <td>Phone+Tablet+Computer</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="plan" id="premium-plan">
+                        <td>Premium Plan</td>
+                        <td>700 INR</td>
+                        <td>4K+HDR</td>
+                        <td>4K+HDR</td>
+                        <td>Phone+Tablet+Computer+TV</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>        </div>
+
+        <div class="pricing-table" id="yearly-pricing-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plan Name</th>
+                        <th>Yearly Price</th>
+                        <th>Video Quality</th>
+                        <th>Resolution</th>
+                        <th>Devices</th>
+                        <th>Number of Screens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="plan" id="mobile-plan-yearly">
+                        <td>Mobile Plan</td>
+                        <td>1000 INR</td>
+                        <td>Good</td>
+                        <td>480p</td>
+                        <td>Phone</td>
+                        <td>1</td>
+                    </tr>
+                    <tr class="plan" id="basic-plan-yearly">
+                        <td>Basic Plan</td>
+                        <td>2000 INR</td>
+                        <td>Better</td>
+                        <td>720p</td>
+                        <td>Phone+Tablet</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="plan" id="standard-plan-yearly">
+                        <td>Standard Plan</td>
+                        <td>5000 INR</td>
+                        <td>Best</td>
+                        <td>1080p</td>
+                        <td>Phone+Tablet+Computer</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="plan" id="premium-plan-yearly">
+                        <td>Premium Plan</td>
+                        <td>7000 INR</td>
+                        <td>4K+HDR</td>
+                        <td>4K+HDR</td>
+                        <td>Phone+Tablet+Computer+TV</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>        </div>
+
+            <button id="next-button" onclick="openPaymentPage()">Next</button>
+        </div>
+
+    <script src="subs.js"></script>
+</body>
+</html>

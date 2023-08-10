@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="payment.css">
+  <title>Payment Confirmation</title>
+</head>
+<body>
+  <div class="payment-container">
+    <h2>Complete Payment</h2>
+    <div class="payment-form">
+      <div class="card-details">
+        <h3>Payment Details</h3>
+        <label for="card-number">Card Number</label>
+        <input type="text" id="card-number" placeholder="Enter your card number" required>
+        <label for="exp-date">Expiration Date (MM/YY)</label>
+        <input type="text" id="exp-date" placeholder="MM/YY" required>
+        <label for="cvv">CVV</label>
+        <input type="password" id="cvv" placeholder="Enter CVV" required>
+      </div>
+      <div class="order-summary">
+        <h3>Order Summary</h3>
+        <p><strong>Plan Name:</strong> <span id="selectedPlan"></span></p>
+        <p><strong>Billing Cycle:</strong> <span id="selectedPlanDetails"></span></p>
+        <p><strong>Plan Details:</strong> <span id="selectedBillingCycle"></span></p>
+      </div>
+    </div>
+    <button id="complete-payment">Complete Payment</button>
+  </div>
+
+  <script src="payment.js"></script>
+</body>
+</html>
