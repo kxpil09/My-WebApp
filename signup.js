@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('userData', JSON.stringify(userData));
   
       alert('Account created successfully! You can now log in.');
-      window.location.href = 'login.html';
+      window.location.href = 'index.html';
     });
   });
   
