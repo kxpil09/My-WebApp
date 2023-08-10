@@ -17,25 +17,29 @@ Welcome to **My Web App**, a simple and user-friendly web application that allow
 ## Screenshots
 
 ![image](https://github.com/kxpil09/My-WebApp/assets/99945815/42fba5c6-9faa-45e6-8af8-23978afbc078)
-
 *Login Page*
+
+![image](https://github.com/kxpil09/My-WebApp/assets/99945815/dd36523c-ab47-44dd-b510-fffc181b1022)
+*Signup Page*
+
+![image](https://github.com/kxpil09/My-WebApp/assets/99945815/f6632f9f-64da-4533-9200-d72c4e6f8f42)
+*Subscription Page*
+
+![image](https://github.com/kxpil09/My-WebApp/assets/99945815/8e5961ae-d6e9-4fa9-92c2-5b6fd957c259)
+*Payment Page*
+
+![image](https://github.com/kxpil09/My-WebApp/assets/99945815/8cc70dd9-1f5d-4abd-9464-f8e6fa29db30)
+*Status Page*
+
 
 ## Getting Started
 
-To experience My Web App, simply visit [https://kapilkukrejawebapp.netlify.app](https://kapilkukrejawebapp.netlify.app).
+To experience My Web App, click on **[Live Demo](https://kapilkukrejawebapp.netlify.app)**
 
 ## Contributing
 
 Contributions are welcome! If you have any bug fixes, improvements, or new features to add, feel free to open a pull request.
 
-## License
+*Kapil Kukreja*
 
-This project is licensed under the [MIT License](LICENSE).
 
----
-
-**[Live Demo](https://kapilkukrejawebapp.netlify.app)** | **[Repository](https://github.com/your-username/your-repo)**
-
-For more information, please visit the [documentation](https://github.com/your-username/your-repo/docs).
-
-*Created by Your Name*
